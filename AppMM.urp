@@ -1,0 +1,14 @@
+database dbname=App.db
+sql App.sql
+allow mime text/plain
+allow mime text/css
+allow mime application/javascript
+allow url http://tinymce.cachefly.net/*
+allow url http://lab.dbpmail.net/static/jquery-1.9.1.min.js
+allow url http://code.jquery.com/ui/1.10.3/jquery-ui.js
+allow url http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css
+allow url http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js
+allow url http://null
+debug
+
+AppMM
