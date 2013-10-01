@@ -1,5 +1,9 @@
 
 (*
+
+dev:[grwlf@greyblade:~/proj/urbugs]$ urweb -version
+The Ur/Web compiler, version 20130421 + dd40104e7175 qbase/qtip/script-tag/tip
+
 dev:[grwlf@greyblade:~/proj/urbugs]$ LANG=C urweb -dbms sqlite AppMM
 gcc  -pthread -Wimplicit -Werror -Wno-unused-value -I /home/grwlf/local/include/urweb  -c /tmp/webapp.c -o /tmp/webapp.o -g
 /tmp/webapp.c:166:37: error: unknown type name 'uw_Basis_dml'
