@@ -1,0 +1,6 @@
+database dbname=CSS.db
+sql CSS.sql
+debug
+
+$/list
+CSS
