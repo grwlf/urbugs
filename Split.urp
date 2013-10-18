@@ -1,0 +1,6 @@
+database dbname=Split.db
+sql Split.sql
+debug
+
+$/list
+Split
