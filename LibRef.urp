@@ -1,0 +1,8 @@
+database dbname=LibRef.db
+sql LibRef.sql
+debug
+path HERE=.
+library $HERE/True
+
+$/list
+LibRef

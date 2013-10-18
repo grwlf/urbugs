@@ -1,0 +1,5 @@
+database dbname=True.db
+sql True.sql
+debug
+
+True
