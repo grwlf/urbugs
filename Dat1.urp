@@ -1,0 +1,5 @@
+database dbname=Dat1.db
+sql Dat1.sql
+debug
+
+Dat1
