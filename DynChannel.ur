@@ -20,14 +20,25 @@ fun mkchannel {} : transaction xbody =
     <dyn signal={signal s}/>
   </xml>
 
+fun getactive {} : transaction xbody =
+  return <xml>
+    <active code={alert "aaaaaaa"; return <xml/>}/>
+    </xml>
+
 fun main {} : transaction page =
+  dummy <- channel;
+  send dummy 0;
   s <- source <xml/>;
   return <xml>
     <head/>
     <body>
+      <button value="TestActive" onclick={fn _ =>
+        x <- rpc(getactive {}); set s x
+      }/>
       <button value="Register" onclick={fn _ =>
         x <- rpc(mkchannel {}); set s x
       }/>
       <dyn signal={signal s}/>
     </body>
   </xml>
+
